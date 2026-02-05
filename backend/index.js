@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import connectDB from './src/config/db.js';
 import cors from 'cors';
 import authRoutes from './src/routes/auth.routes.js';
+import foodRoutes from './src/routes/food.routes.js';
 
 
 dotenv.config();
@@ -13,6 +14,7 @@ app.use(cors());
 
 
 app.use('/auth',authRoutes);
+app.use('/foods',foodRoutes);
 
 const PORT = process.env.PORT || 5001;
 
