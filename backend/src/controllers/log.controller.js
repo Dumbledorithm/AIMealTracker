@@ -1,5 +1,5 @@
-import Log from '../models/Log';
-import Food from '../models/Food';
+import Log from '../models/Log.js';
+import Food from '../models/Food.js';
 import dayjs from 'dayjs';
 
 export const addLog = async(req,res) => {

@@ -5,9 +5,9 @@ import {
     getFoodById,
     updateFood,
     deleteFood
-} from '../controllers/food.controller';
+} from '../controllers/food.controller.js';
 
-import authMiddleware from '../middlewares/auth.middleware';
+import authMiddleware from '../middlewares/auth.middleware.js';
 
 const router = express.Router();
 
