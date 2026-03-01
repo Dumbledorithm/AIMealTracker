@@ -4,9 +4,9 @@ import {
     getLogsByDay,
     getWeeklyLogs,
     deleteLog
-} from '../controllers/log.controller';
+} from '../controllers/log.controller.js';
 
-import authMiddleware from '../middlewares/auth.middleware';
+import authMiddleware from '../middlewares/auth.middleware.js';
 
 const router = express.Router();
 
